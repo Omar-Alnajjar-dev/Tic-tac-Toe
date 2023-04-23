@@ -1,0 +1,45 @@
+body {
+    font-family: 'Sigmar', cursive;
+    --width: 620px;
+    text-align: center;
+    background-image: url("3131070.jpg");
+    color: white;
+}
+
+#scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2>div {
+    font-size: 34px;
+}
+
+#main {
+    width: var(--width);
+    height: var(--width);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px; */
+    /* background-color: black; */
+}
+
+.square {
+    height: calc(var(--width)/3);
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid white; */
+    /* background-color: white; */
+}
+
+.b-line {
+    border-bottom: 10px solid white;
+}
+
+.r-line {
+    border-right: 10px solid white;
+}
