@@ -1,6 +1,6 @@
 body {
     font-family: 'Sigmar', cursive;
-    --width: 620px;
+    --width: 100vw;
     text-align: center;
     background-image: url("3131070.jpg");
     color: white;
@@ -22,8 +22,6 @@ h2>div {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 10px; */
-    /* background-color: black; */
 }
 
 .square {
@@ -32,8 +30,6 @@ h2>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 10px solid white; */
-    /* background-color: white; */
 }
 
 .b-line {
