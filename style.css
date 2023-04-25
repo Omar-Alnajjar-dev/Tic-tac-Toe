@@ -1,6 +1,18 @@
+@media screen and (max-width: 500px) {
+    body {
+        --width: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        --width: 620px;
+    }
+}
+
 body {
     font-family: 'Sigmar', cursive;
-    --width: 100vw;
+    /* --width: 100vw; */
     text-align: center;
     background-image: url("3131070.jpg");
     color: white;
